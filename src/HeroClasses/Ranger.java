@@ -9,4 +9,9 @@ public class Ranger extends StandartClass{
     public float AttackStrength() {
         return 3 * super.dexterity;
     }
+
+    @Override
+    public String toString() {
+        return "ranger";
+    }
 }

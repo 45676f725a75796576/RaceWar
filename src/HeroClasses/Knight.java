@@ -9,4 +9,9 @@ public class Knight extends StandartClass{
     public float AttackStrength() {
         return 3 * super.AttackStrength();
     }
+
+    @Override
+    public String toString() {
+        return "knight";
+    }
 }

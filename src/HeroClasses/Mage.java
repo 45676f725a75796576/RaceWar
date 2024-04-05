@@ -9,4 +9,9 @@ public class Mage extends StandartClass{
     public float AttackStrength() {
         return 3 * super.intelligence;
     }
+
+    @Override
+    public String toString() {
+        return "mage";
+    }
 }
